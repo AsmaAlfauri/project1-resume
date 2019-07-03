@@ -5,10 +5,11 @@ body{
 .grid-container{
 	display:grid;
 	grid-template-columns: 2fr 1fr;
+	grid-column-gap: 20px;
 }
 .head-grid{
 	grid-column: 1/3;
-	background-image: linear-gradient(to right, blue, pink);
+	background-image: linear-gradient(to left, #3A292D, pink,#FDE8EC);
 	padding-top: 20px;
 }
 h1{
@@ -31,7 +32,7 @@ img{
 	margin-right: 20px;
 	margin-top: 50px;
 	border: 10px solid;
-	background-color: linear-gradient(to right, blue, pink);
+	background-color: linear-gradient(to left, #3A292D, pink,#FDE8EC);
 }
 .experince-grid{
 	display: grid;
@@ -67,8 +68,20 @@ h5{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	background-image: linear-gradient(to right, blue, pink);
+	background-image: linear-gradient(to left, #3A292D, pink,#FDE8EC);
 }
 progress{
 	display: block;
 }
+.line{
+	border: 2px solid #AB7F87;
+
+}
+#line-end{
+	border: 2px solid white;
+
+}
+h4{
+	text-align: center;
+}
+
