@@ -1,0 +1,53 @@
+body{
+	width: 100%;
+	margin: 2%
+}
+.grid-container{
+	display:grid;
+	grid-template-columns: 2fr 1fr;
+}
+.head-grid{
+	grid-column: 1/3;
+}
+img{
+	float: right;
+	width: 200px;
+}
+.experince-grid{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: repeat(3,1fr);
+}
+.skill-grid{
+}
+.education-grid{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr;
+}
+.certif-grid{
+	
+}
+.intrest-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.language-grid{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+.end{
+	grid-column: 1/3;
+}
+h5{
+	display: inline;
+}
+.end-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+progress{
+	display: block;
+}
