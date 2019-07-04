@@ -1,5 +1,5 @@
 body{
-	size: 7in 9.25in;
+	
    margin: 27mm 16mm 27mm 16mm;
    font-family: Courier;
    font-size: 14px;
@@ -34,6 +34,9 @@ p{
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-template-rows: repeat(3,1fr);
+}
+.experince-grid div{
+	margin-bottom: 15px;
 }
 .skill-grid{
 }
