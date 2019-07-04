@@ -1,6 +1,8 @@
 body{
 	size: 7in 9.25in;
    margin: 27mm 16mm 27mm 16mm;
+   font-family: Courier;
+   font-size: 14px;
 }
 .grid-container{
 	display:grid;
@@ -11,6 +13,8 @@ body{
 	grid-column: 1/3;
 	background-image: linear-gradient(to left, #3A292D, pink,#FDE8EC);
 	padding-top: 20px;
+	margin-bottom: 60px;
+
 }
 h1{
 	margin-left: 50px;
@@ -25,15 +29,7 @@ p{
 	margin-top: 10px;
 	margin-left: 50px;
 }
-img{
-	float: right;
-	width: 200px;
-	margin-bottom: -30px;
-	margin-right: 20px;
-	margin-top: 50px;
-	border: 10px solid;
-	background-color: linear-gradient(to left, #3A292D, pink,#FDE8EC);
-}
+
 .experince-grid{
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -60,6 +56,8 @@ img{
 }
 .end{
 	grid-column: 1/3;
+	margin-top: 10px;
+	margin-bottom: -20px;
 }
 h5{
 	display: inline;
@@ -84,4 +82,27 @@ progress{
 h4{
 	text-align: center;
 }
+.line1{
+border-top: 10px solid #AB7F87;
+margin-bottom: -10px;
+}
+.title-cover{
+	float: left;
+	width:50%;
+}
+.imag1{
+	background-image: linear-gradient(to right, #3A292D, pink,#FDE8EC);
+	float: right;
+	margin: 25px 20px -100px 0;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	/*border:5px solid;*/
 
+}
+.imag1 img{
+	width: 100%;
+	height: 100%;
+/*	border: 10px solid;
+*/	/*background-color: linear-gradient(to left, #3A292D, pink,#FDE8EC);*/
+}
